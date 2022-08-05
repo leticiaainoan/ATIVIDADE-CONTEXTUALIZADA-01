@@ -41,7 +41,34 @@ Se não, ir para a próxima sessão;
 
 Se sim, encerrar reabilitação.
 
+**2 -A partir das informações colocadas no texto da questão 1, destacar o que seriam memória, processamento, entrada/saída:**
 
+Entrada, seriam as informações de altura, peso, velocidade e amplitude do movimento.
+Saída são, os gráficos de amplitude do movimento e e dados de avanço na reabilitação.
+Memória, quando é feito o registro de velocidade, altura, peso, amplitude do movimento, dos gráficos e registro do número de seções de reabilitação.
+Processamento, quado é feita a leitura do peso, altura, velocidade e amplitude do movimento. Também quando se inicia o meovimento, quando se verifica a 
+estabilidade do paciente,quando se define um tempo para a repetição do movimento,quando é feita a análise se o paciente está sendo desafiado e quando se avalia em que etapa da reabilitação o paciente se enontra.
+
+**3 -A partir das informações colocadas no texto da questão 1, destacar o que seriam as estruturas de repetição e de decisão:**
+
+Etrutura de repetição são:
+
+Ajuste de velocidade até o paciente encontrar estabilidade;
+repetir o processo durante um tempo determinado;
+
+Estrutura de decisão são:
+
+Quando é feita a decisão sobre a estabilidade do paciente;
+Quando se decide se o paciente está sendo desafiado;
+Quando é questionado se o paciente realizou o número de reabilitações necessárias.
+
+
+
+
+**4 -Converter as informações compiladas nas questões 1, 2 e 3 em um diagrama de blocos conforme apresentado no slide 28.**
+![image](https://user-images.githubusercontent.com/110606748/183090398-d72c8d22-6807-4f5d-bab0-552cdc799acc.png)
+ 
+**5 -Converter as informações compiladas nas questões 1, 2 e 3 em um pseudocódigo conforme apresentado no slide 30**
 
 
 
