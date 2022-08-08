@@ -41,6 +41,8 @@ Se não, ir para a próxima sessão;
 
 Se sim, encerrar reabilitação.
 
+Utilização ZeroG®
+
 **2 -A partir das informações colocadas no texto da questão 1, destacar o que seriam memória, processamento, entrada/saída:**
 
 Entrada, seriam as informações de altura, peso, velocidade e amplitude do movimento.
@@ -66,9 +68,98 @@ Quando é questionado se o paciente realizou o número de reabilitações necess
 
 
 **4 -Converter as informações compiladas nas questões 1, 2 e 3 em um diagrama de blocos conforme apresentado no slide 28.**
-![image](https://user-images.githubusercontent.com/110606748/183090398-d72c8d22-6807-4f5d-bab0-552cdc799acc.png)
+file:///home/leticia.sousa/Downloads/fluxograma_aula_01.png![image](https://user-images.githubusercontent.com/110606748/183483447-2110d446-b31f-4558-92e0-f15c3839e26d.png)
  
 **5 -Converter as informações compiladas nas questões 1, 2 e 3 em um pseudocódigo conforme apresentado no slide 30**
+
+**Pseudocódico**
+
+
+**algoritmo** EQUIPAMENTO_REABILITACAO
+
+**VAR** tempo; **real**
+
+**VAR** VELOCIDADE,AMPLITUDE, PESO, ALTURA; **float**;
+
+**VAR** sim, não; **texto**;
+
+**inicio;**
+
+**leia** altura, peso, velocidade, amplitude;
+
+< iniciar movimento >
+
+**escreva** "grafico de amplitude e velocidade"
+
+**escreva** "O paciente demonstra estabilidade?"
+
+**leia** sim, não;
+
+**Se** sim  **então**
+
+< continuar reabilitação > 
+
+**Senão**
+
+ < Diminuir velocidade >
+ 
+ **enquanto** < o paciente não demonstrar estabilidade>  **faça** < diminuir velocidade >
+
+**escreva** "O paciente está sendo fisicamente desafiado?"
+
+**leia** sim, não;
+
+**Se** sim; **então**
+
+< continuar reabilitação >
+
+**senão**
+
+< aumentar velocidade >
+
+**escreva** "O paciente demonstra estabilidade?"
+
+**leia** sim, não;
+
+**Se** sim  **então**
+
+< continuar reabilitação > 
+
+**Senão**
+
+ < Diminuir velocidade >
+ 
+ **enquanto** < o paciente não demonstrar estabilidade>  **faça** < diminuir velocidade >
+
+**escreva** "Mantaer movimento por quanto tempo?"
+
+**leia** t;
+
+**para** < t > **faça** < manter movimento >
+
+ **escreva** "Concluiu o n° de sessões necessárias para reabilitação?"
+ 
+ **leia** sim, não;
+ 
+ **se** sim **então** < encerrar reabilitação >
+ 
+ **senão** 
+ 
+ <proxima sessão>
+ 
+ **enquanto** < não concluir o n° de sessões de reabilitação necessária > **faça** < realizar processo novamente >
+ 
+ **fim_se**
+ 
+ **fim_enquanto**
+ 
+ **fim_para**
+ 
+ **fim**
+ 
+
+ 
+ 
 
 
 
