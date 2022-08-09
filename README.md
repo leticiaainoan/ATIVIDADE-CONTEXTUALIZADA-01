@@ -55,6 +55,8 @@ Suspender paciente de forma que ele encontre sustentação;
 
 Iniciar caminhada;
 
+Analisar se paciente possui equilíbrio;
+
 Se paciente demosntrar equilíbrio durante a caminhada, diminuir um pouco a sustentação;
 
 Senão manter paciente suspenso;
@@ -114,6 +116,38 @@ Se não, ir para a próxima sessão; **processamento**
 
 Se sim, encerrar reabilitação. **processamento**
 
+**Utilização ZeroG®**
+
+Por aparato de suporte envolta da cintura, ombros e pernas do paciente em reabilitação; **processamento**
+
+Por suporte de sustentação no ZeroG que está em trilhos no teto; **processamento**
+
+Realizar ajuste se peso; **entrada**
+
+Realizar ajuste de movimento; **entrada**
+
+Suspender paciente de forma que ele encontre sustentação; **processamento**
+
+Iniciar caminhada; **processamento**
+
+Analisar se paciente possui equilíbrio **saída**
+
+Se paciente demosntrar equilíbrio durante a caminhada, diminuir um pouco a sustentação; **processamento**
+
+Senão manter paciente suspenso; **processamento**
+
+Se paciente aumentar a velocidade da caminhada e perder equilíbrio, parar movimento de forma rápida.**processamento**
+
+Caso necessário retirar o estado de suspenção do paciente com botão de emergência; **processamento**
+
+Analisar evolução; **processamento**
+
+Analisar se o paciente concluiu o número necessário de reabilitações; **processamento**
+
+Se não, ir para a próxima sessão; **processamento**
+
+Se sim, encerrar reabilitação. **processamento**
+
 
 **3 -A partir das informações colocadas no texto da questão 1, destacar o que seriam as estruturas de repetição e de decisão:**
 
@@ -151,11 +185,43 @@ Se sim, manter movimento por um tempo determinado pelo reabilitador; **estrutura
 
 Analisar se o paciente concluiu o número necessário de reabilitações; **Estrutura de decisão**
 
-Se não, ir para a próxima sessão; *Estrutura de repetição*
+Se não, ir para a próxima sessão; **Estrutura de repetição**
 
-Se sim, encerrar reabilitação.
+Se sim, encerrar reabilitação. **Estrutura de repetição**
 
+**Utilização ZeroG®**
 
+Por aparato de suporte envolta da cintura, ombros e pernas do paciente em reabilitação;
+
+Por suporte de sustentação no ZeroG que está em trilhos no teto;
+
+Realizar ajuste se peso;
+
+Realizar ajuste de movimento;
+
+Suspender paciente de forma que ele encontre sustentação;
+
+Iniciar caminhada;
+
+Analisar se paciente possui equilíbrio;
+
+Se paciente demosntrar equilíbrio durante a caminhada, diminuir um pouco a sustentação; **Estrutura de decisão**
+
+Senão manter paciente suspenso; **Estrutura de decisão**
+
+Se paciente aumentar a velocidade da caminhada e perder equilíbrio, parar movimento de forma rápida. **Estrutura de decisão**
+
+Senão continuar caminhada **Estrutura de decisão**
+
+Se paciente aumetar velicidade e perder equilíbrio, parar movimento de forma rápida e retirar o estado de suspenção do paciente com botão de emergência; **Estrutura de decisão**
+
+Analisar evolução 
+
+Analisar se o paciente concluiu o número necessário de reabilitações; **Estrutura de decisão**
+
+Se não, ir para a próxima sessão;  **Estrutura de repetição**
+
+Se sim, encerrar reabilitação.  **Estrutura de repetição**
 
 
 **4 -Converter as informações compiladas nas questões 1, 2 e 3 em um diagrama de blocos conforme apresentado no slide 28.**
