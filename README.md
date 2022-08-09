@@ -356,7 +356,7 @@ Se sim, encerrar reabilitação.  **Estrutura de repetição**
 
 **leia** sim, não;
 
-**Se** sim  **então**
+**Se** não  **então**
 
 <Apertar botão de emergência>
 
@@ -385,8 +385,6 @@ Se sim, encerrar reabilitação.  **Estrutura de repetição**
  **fim_se**
  
  **fim_enquanto**
- 
- **fim_para**
  
  **fim**
  
