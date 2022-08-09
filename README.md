@@ -225,14 +225,23 @@ Se sim, encerrar reabilitação.  **Estrutura de repetição**
 
 
 **4 -Converter as informações compiladas nas questões 1, 2 e 3 em um diagrama de blocos conforme apresentado no slide 28.**
-file:///home/leticia.sousa/Downloads/fluxograma_aula_01.png![image](https://user-images.githubusercontent.com/110606748/183483447-2110d446-b31f-4558-92e0-f15c3839e26d.png)
+
+**Lokomat®**
+
+![fluxograma_lokomat](https://user-images.githubusercontent.com/110606748/183718776-74f07e76-3b23-43f2-9fa5-d0991bae393b.jpeg)
+
+**ZeroG®**
  
+![fluxograma02](https://user-images.githubusercontent.com/110606748/183728075-8ccd08af-54ee-423b-92f7-e9d1aab70b04.png)
+
+
+
 **5 -Converter as informações compiladas nas questões 1, 2 e 3 em um pseudocódigo conforme apresentado no slide 30**
 
-**Pseudocódico**
+**Pseudocódico_Lokomat®**
 
 
-**algoritmo** EQUIPAMENTO_REABILITACAO
+**algoritmo** EQUIPAMENTO_REABILITACAO_Lokomat®
 
 **VAR** tempo; **real**
 
@@ -314,7 +323,72 @@ file:///home/leticia.sousa/Downloads/fluxograma_aula_01.png![image](https://user
  
  **fim**
  
+ *Pseudocódico_ZeroG®**
 
+
+**algoritmo** EQUIPAMENTO_REABILITACAO_ZeroG®
+
+**VAR** velocidade, peso; **float**;
+
+**VAR** sim, não; **texto**;
+
+**inicio;**
+
+**leia** peso, velocidade;
+
+< iniciar caminhada >
+
+**escreva** "O paciente possui equilíbrio?"
+
+**leia** sim, não;
+
+**Se** sim  **então**
+
+< Diminuir sustentação> 
+
+**Senão**
+
+ < manter paciente suspenso>
+ 
+ < Continuar reabilitação>
+ 
+**escreva** "O paciente está com velocidade constante e equilibrado?"
+
+**leia** sim, não;
+
+**Se** sim  **então**
+
+<Apertar botão de emergência>
+
+<Parar movimento rapidamente>
+
+<Retirarestado de suspenção> 
+
+**enquanto** < O paciente não estiver com velocidade cosntante e equilibrado > **faça** < apertar botão d emergência >
+
+**Senão** <Manter paciente suspenso>
+
+ <continuar reabilitação>
+
+ **escreva** "O paciente concluiu o n° de sessões necessárias para reabilitação?"
+ 
+ **leia** sim, não;
+ 
+ **se** sim **então** < encerrar reabilitação >
+ 
+ **senão** 
+ 
+ <proxima sessão>
+ 
+ **enquanto** < não concluir o n° de sessões de reabilitação necessária > **faça** < realizar processo novamente >
+ 
+ **fim_se**
+ 
+ **fim_enquanto**
+ 
+ **fim_para**
+ 
+ **fim**
  
  
 
