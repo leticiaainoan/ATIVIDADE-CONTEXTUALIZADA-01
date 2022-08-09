@@ -3,11 +3,11 @@
 
 **1 -Descreva de forma narrativa (slide 27) com a maior quantidade de detalhes possível (Interação paciente máquina, setup, comunicação com hardware, o que estiver mais familiarizado) como se daria a utilização do Lokomat® e ZeroG®.**
 
-Utilização do Lokomat®
+**Utilização do Lokomat®**
 
-Fazer amedição do tamanho da perna do paciente até o joelho;
+Fazer a medição do tamanho da perna do paciente até o joelho;
 
-Por a sinta desuporte alinhada com a coluna do paciente;
+Por a sinta de suporte alinhada com a coluna do paciente;
 
 Paciente é posto no dipositivo; 
 
@@ -23,7 +23,7 @@ Definir velocidade do movimento;
 
 Iniciar movimento;
 
-Verificar no display grafico de amplitude de movimento e valocidade;
+No display grafico de amplitude de movimento e valocidade;
 
 Verificar se paciente está estável com com a valocidade pré definida;
 
@@ -41,28 +41,88 @@ Se não, ir para a próxima sessão;
 
 Se sim, encerrar reabilitação.
 
-Utilização ZeroG®
+**Utilização ZeroG®**
 
 **2 -A partir das informações colocadas no texto da questão 1, destacar o que seriam memória, processamento, entrada/saída:**
 
-Entrada, seriam as informações de altura, peso, velocidade e amplitude do movimento.
-Saída são, os gráficos de amplitude do movimento e e dados de avanço na reabilitação.
-Memória, quando é feito o registro de velocidade, altura, peso, amplitude do movimento, dos gráficos e registro do número de seções de reabilitação.
-Processamento, quado é feita a leitura do peso, altura, velocidade e amplitude do movimento. Também quando se inicia o meovimento, quando se verifica a 
-estabilidade do paciente,quando se define um tempo para a repetição do movimento,quando é feita a análise se o paciente está sendo desafiado e quando se avalia em que etapa da reabilitação o paciente se enontra.
+Utilização do Lokomat®
+
+Fazer a medição do tamanho da perna do paciente até o joelho; **entrada**
+
+Por a sinta de suporte alinhada com a coluna do paciente; **processamento**
+
+Paciente é posto no dipositivo; **processamento**
+
+O fixar dispositivo na altura do quadril dopaciente; **processamento**
+
+Fixar suporte na altura nos tornozelos dopaciente; **processamento**
+
+Ajuste da amplitude do movimento; **processamento**
+
+Registro do peso e altura do paciente; **memória**
+
+Definir velocidade do movimento; **entrada**
+
+Iniciar movimento; **processamento**
+
+No display grafico de amplitude de movimento e valocidade; **saída**
+
+Verificar se paciente está estável com com a valocidade pré definida; **processamento**
+
+Se não, diminuir velocidade até o paciente ficar estável; **processamento**
+
+Se sim, verificar se paciente está sendo desafiado; **processamento**
+
+Se não,aumentar velocidade até o pacciente ser desafiado; **processamento**
+
+Se sim, manter movimento por um tempo determinado pelo reabilitador; **processamento**
+
+Analisar se o paciente concluiu o número necessário de reabilitações; **processamento**
+
+Se não, ir para a próxima sessão; **processamento**
+
+Se sim, encerrar reabilitação. **processamento**
+
 
 **3 -A partir das informações colocadas no texto da questão 1, destacar o que seriam as estruturas de repetição e de decisão:**
 
-Etrutura de repetição são:
+**Utilização do Lokomat®**
 
-Ajuste de velocidade até o paciente encontrar estabilidade;
-repetir o processo durante um tempo determinado;
+Fazer a medição do tamanho da perna do paciente até o joelho;
 
-Estrutura de decisão são:
+Por a sinta de suporte alinhada com a coluna do paciente;
 
-Quando é feita a decisão sobre a estabilidade do paciente;
-Quando se decide se o paciente está sendo desafiado;
-Quando é questionado se o paciente realizou o número de reabilitações necessárias.
+Paciente é posto no dipositivo; 
+
+O fixar dispositivo na altura do quadril dopaciente;
+
+Fixar suporte na altura nos tornozelos dopaciente;
+
+Ajuste da amplitude do movimento;
+
+Registro do peso e altura do paciente;
+
+Definir velocidade do movimento;
+
+Iniciar movimento;
+
+No display grafico de amplitude de movimento e valocidade;
+
+Verificar se paciente está estável com com a valocidade pré definida; **Estrutura de decisão**
+
+Se não, diminuir velocidade até o paciente ficar estável; **estrutura de repetição**
+
+Se sim, verificar se paciente está sendo desafiado; **Estrutura de decisão** 
+
+Se não,aumentar velocidade até o pacciente ser desafiado; **estrutura de repetição**
+
+Se sim, manter movimento por um tempo determinado pelo reabilitador; **estrutura de repetição**
+
+Analisar se o paciente concluiu o número necessário de reabilitações; **Estrutura de decisão**
+
+Se não, ir para a próxima sessão; *Estrutura de repetição*
+
+Se sim, encerrar reabilitação.
 
 
 
