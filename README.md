@@ -43,6 +43,37 @@ Se sim, encerrar reabilitação.
 
 **Utilização ZeroG®**
 
+Por aparato de suporte envolta da cintura, ombros e pernas do paciente em reabilitação;
+
+Por suporte de sustentação no ZeroG que está em trilhos no teto;
+
+Realizar ajuste se peso;
+
+Realizar ajuste de movimento;
+
+Suspender paciente de forma que ele encontre sustentação;
+
+Iniciar caminhada;
+
+Se paciente demosntrar equilíbrio durante a caminhada, diminuir um pouco a sustentação;
+
+Senão manter paciente suspenso;
+
+Se paciente aumentar a velocidade da caminhada e perder equilíbrio, parar movimento de forma rápida.
+
+Caso necessário retirar o estado de suspenção do paciente com botão de emergência;
+
+Analisar evolução
+
+Analisar se o paciente concluiu o número necessário de reabilitações;
+
+Se não, ir para a próxima sessão;
+
+Se sim, encerrar reabilitação.
+
+
+
+
 **2 -A partir das informações colocadas no texto da questão 1, destacar o que seriam memória, processamento, entrada/saída:**
 
 Utilização do Lokomat®
